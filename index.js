@@ -1,7 +1,7 @@
 /**
- * Execute PHP function within NodeJS application
- * @package exec-php
- * @version 0.0.6
+ * Hash Creator Within PHP function on NodeJS application to promise.
+ * @package tyn-hash-creator
+ * @version 0.0.2
  */
 
 let fs   = require('fs')
