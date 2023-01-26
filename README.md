@@ -9,13 +9,13 @@ npm install tyn-hash-creator
 
 
 ## Usage
-
+```js
 var execPhp = require('tyn-hash-creator').phpExec
 
 
 
 var mhash = await execPhp(path, phpbin,data, iv, salt, saltWithPassword)
-
+```
 
 ## Arguments
 
@@ -25,7 +25,7 @@ var mhash = await execPhp(path, phpbin,data, iv, salt, saltWithPassword)
 
 ## Example
 
-php
+```php
 // file.php
 <?
 function tynhash($data,$iv,$salt,$saltWithPassword)
@@ -39,10 +39,12 @@ function tynhash($data,$iv,$salt,$saltWithPassword)
     }
 
 ?>
+```
 
 
-js
+```js
 // app.js
 var execPhp = require('tyn-hash-creator').phpExec
 
 var mhash = await execPhp(path, phpbin,data, iv, salt, saltWithPassword)
+```
