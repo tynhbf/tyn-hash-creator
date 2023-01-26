@@ -10,7 +10,6 @@ npm install tyn-hash-creator
 
 ## Usage
 
-js
 var execPhp = require('tyn-hash-creator').phpExec
 
 
